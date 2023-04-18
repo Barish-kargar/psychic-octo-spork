@@ -9,11 +9,20 @@
     font-style: normal;
     font-weight: 400;
 }
+@media screen and (max-width: 768px) {
+   .mobile-flex-column {
+       flex-direction: column;
+   }
 
+}
+@media screen and (max-width: 640px) {
+    .mobile-flex {
+        display: flex;
+    }
+}   
 body {
     font-family: "poppins";
 }
-
 .flex {
     display: flex;
 }
@@ -26,33 +35,26 @@ body {
 .gap-20px {
     gap: 20px;
 }
-
 .g {
     color: #767B99;
 }
-
 .container {
     max-width: 1150px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .justify-center {
     justify-content: center;
 }
-
 .flex-basis-33\.33333\% {
     flex-basis: 33.33333%;
 }
-
 .section-description {
     color: #9485FB;
     margin-bottom: 5px;
     line-height: 1.7;
-
 }
-
 .section-title {
     font-size: 32px;
     color: #272D4D;
